@@ -1,0 +1,5 @@
+source="auth.log" "Failed password"
+
+source="auth.log" "Accepted password"
+
+source="auth.log" "Failed password" | timechart span=1m count
